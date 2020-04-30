@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Users should be able to login" time="22.133" tests="6" errors="6" skipped="0" failures="0">
+  <properties>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="12"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/fthvursavas/IdeaProjects/summer-2019-europe-cucumber-selenium-jamal-final/target/test-classes:/Users/fthvursavas/IdeaProjects/summer-2019-europe-cucumber-selenium-jamal-final/target/classes:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/fthvursavas/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/fthvursavas/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/fthvursavas/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/fthvursavas/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/fthvursavas/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/fthvursavas/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/fthvursavas/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/fthvursavas/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/fthvursavas/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/fthvursavas/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/fthvursavas/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.0/webdrivermanager-3.8.0.jar:/Users/fthvursavas/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/fthvursavas/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/fthvursavas/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/fthvursavas/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/fthvursavas/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/fthvursavas/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/fthvursavas/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/fthvursavas/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/fthvursavas/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/fthvursavas/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/fthvursavas/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/fthvursavas/.m2/repository/io/cucumber/cucumber-junit/4.8.1/cucumber-junit-4.8.1.jar:/Users/fthvursavas/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/fthvursavas/.m2/repository/io/cucumber/cucumber-core/4.8.1/cucumber-core-4.8.1.jar:/Users/fthvursavas/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/fthvursavas/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/fthvursavas/.m2/repository/io/cucumber/cucumber-expressions/7.0.2/cucumber-expressions-7.0.2.jar:/Users/fthvursavas/.m2/repository/io/cucumber/datatable/1.1.14/datatable-1.1.14.jar:/Users/fthvursavas/.m2/repository/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14.jar:/Users/fthvursavas/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/fthvursavas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/fthvursavas/.m2/repository/io/cucumber/cucumber-java/4.8.1/cucumber-java-4.8.1.jar:/Users/fthvursavas/.m2/repository/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar:/Users/fthvursavas/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="12"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/fthvursavas/IdeaProjects/summer-2019-europe-cucumber-selenium-jamal-final/target/surefire/surefirebooter15174254371422256543.jar /Users/fthvursavas/IdeaProjects/summer-2019-europe-cucumber-selenium-jamal-final/target/surefire 2020-02-27T19-55-02_786-jvmRun1 surefire4626918212851407416tmp surefire_014839705051658152603tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/fthvursavas/IdeaProjects/summer-2019-europe-cucumber-selenium-jamal-final/target/test-classes:/Users/fthvursavas/IdeaProjects/summer-2019-europe-cucumber-selenium-jamal-final/target/classes:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/fthvursavas/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/fthvursavas/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/fthvursavas/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/fthvursavas/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/fthvursavas/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/fthvursavas/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/fthvursavas/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/fthvursavas/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/fthvursavas/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/fthvursavas/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/fthvursavas/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/fthvursavas/.m2/repository/io/github/bonigarcia/webdrivermanager/3.8.0/webdrivermanager-3.8.0.jar:/Users/fthvursavas/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/fthvursavas/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/fthvursavas/.m2/repository/com/google/code/gson/gson/2.8.5/gson-2.8.5.jar:/Users/fthvursavas/.m2/repository/org/apache/commons/commons-lang3/3.8.1/commons-lang3-3.8.1.jar:/Users/fthvursavas/.m2/repository/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar:/Users/fthvursavas/.m2/repository/org/apache/httpcomponents/httpcore/4.4.10/httpcore-4.4.10.jar:/Users/fthvursavas/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/fthvursavas/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/fthvursavas/.m2/repository/org/rauschig/jarchivelib/1.0.0/jarchivelib-1.0.0.jar:/Users/fthvursavas/.m2/repository/org/apache/commons/commons-compress/1.18/commons-compress-1.18.jar:/Users/fthvursavas/.m2/repository/org/jsoup/jsoup/1.11.3/jsoup-1.11.3.jar:/Users/fthvursavas/.m2/repository/io/cucumber/cucumber-junit/4.8.1/cucumber-junit-4.8.1.jar:/Users/fthvursavas/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/fthvursavas/.m2/repository/io/cucumber/cucumber-core/4.8.1/cucumber-core-4.8.1.jar:/Users/fthvursavas/.m2/repository/io/cucumber/gherkin/5.1.0/gherkin-5.1.0.jar:/Users/fthvursavas/.m2/repository/io/cucumber/tag-expressions/1.1.1/tag-expressions-1.1.1.jar:/Users/fthvursavas/.m2/repository/io/cucumber/cucumber-expressions/7.0.2/cucumber-expressions-7.0.2.jar:/Users/fthvursavas/.m2/repository/io/cucumber/datatable/1.1.14/datatable-1.1.14.jar:/Users/fthvursavas/.m2/repository/io/cucumber/datatable-dependencies/1.1.14/datatable-dependencies-1.1.14.jar:/Users/fthvursavas/.m2/repository/junit/junit/4.12/junit-4.12.jar:/Users/fthvursavas/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/fthvursavas/.m2/repository/io/cucumber/cucumber-java/4.8.1/cucumber-java-4.8.1.jar:/Users/fthvursavas/.m2/repository/mysql/mysql-connector-java/8.0.19/mysql-connector-java-8.0.19.jar:/Users/fthvursavas/.m2/repository/com/google/protobuf/protobuf-java/3.6.1/protobuf-java-3.6.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/fthvursavas"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2019-07-16"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/fthvursavas/IdeaProjects/summer-2019-europe-cucumber-selenium-jamal-final"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/fthvursavas/IdeaProjects/summer-2019-europe-cucumber-selenium-jamal-final/target/surefire/surefirebooter15174254371422256543.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="12.0.2+10"/>
+    <property name="user.name" value="fthvursavas"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.14.4"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/fthvursavas/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/4t/w7h5k1zj39g99bymtgn7pq600000gn/T/"/>
+    <property name="java.version" value="12.0.2"/>
+    <property name="user.dir" value="/Users/fthvursavas/IdeaProjects/summer-2019-europe-cucumber-selenium-jamal-final"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/fthvursavas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="12.0.2+10"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="56.0"/>
+  </properties>
+  <testcase name="Login as a driver" classname="Users should be able to login" time="9.857">
+    <error message="session not created exception&#10;from unknown error: Runtime.evaluate missing &apos;wasThrown&apos;&#10;  (Session info: chrome=80.0.3987.122)&#10;  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 4.82 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;&#10;System info: host: &apos;Fths-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1094:1bce:b9e5:7867%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 5.36 seconds" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.82 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 5.36 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.82 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+</error>
+  </testcase>
+  <testcase name="Login as a driver" classname="Users should be able to login" time="0">
+    <error message="session not created exception&#10;from unknown error: Runtime.evaluate missing &apos;wasThrown&apos;&#10;  (Session info: chrome=80.0.3987.122)&#10;  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.26 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;&#10;System info: host: &apos;Fths-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1094:1bce:b9e5:7867%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 3.52 seconds" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.26 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 3.52 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.26 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+</error>
+  </testcase>
+  <testcase name="Login as a sales manager" classname="Users should be able to login" time="8.076">
+    <error message="session not created exception&#10;from unknown error: Runtime.evaluate missing &apos;wasThrown&apos;&#10;  (Session info: chrome=80.0.3987.122)&#10;  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 3.17 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;&#10;System info: host: &apos;Fths-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1094:1bce:b9e5:7867%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 3.37 seconds" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.17 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 3.37 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.17 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[Creating database connection...
+Closing database connection...
+]]></system-out>
+  </testcase>
+  <testcase name="Login as a sales manager" classname="Users should be able to login" time="0">
+    <error message="session not created exception&#10;from unknown error: Runtime.evaluate missing &apos;wasThrown&apos;&#10;  (Session info: chrome=80.0.3987.122)&#10;  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 2.08 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;&#10;System info: host: &apos;Fths-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1094:1bce:b9e5:7867%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 2.24 seconds" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.08 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 2.24 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.08 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+</error>
+  </testcase>
+  <testcase name="Login as a store manager" classname="Users should be able to login" time="4.196">
+    <error message="session not created exception&#10;from unknown error: Runtime.evaluate missing &apos;wasThrown&apos;&#10;  (Session info: chrome=80.0.3987.122)&#10;  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.69 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;&#10;System info: host: &apos;Fths-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1094:1bce:b9e5:7867%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 1.82 seconds" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.69 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 1.82 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.69 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[Creating database connection...
+Closing database connection...
+]]></system-out>
+  </testcase>
+  <testcase name="Login as a store manager" classname="Users should be able to login" time="0">
+    <error message="session not created exception&#10;from unknown error: Runtime.evaluate missing &apos;wasThrown&apos;&#10;  (Session info: chrome=80.0.3987.122)&#10;  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.53 seconds&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:53&apos;&#10;System info: host: &apos;Fths-MacBook-Air.local&apos;, ip: &apos;fe80:0:0:0:1094:1bce:b9e5:7867%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.14.4&apos;, java.version: &apos;12.0.2&apos;&#10;Driver info: driver.version: unknown&#10;Command duration or timeout: 1.68 seconds" type="org.openqa.selenium.SessionNotCreatedException">org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.53 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 1.68 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.53 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+</error>
+  </testcase>
+</testsuite>

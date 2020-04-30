@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: Account types
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 16.273 s <<< FAILURE! - in Account types
+Sales manager user(Account types)  Time elapsed: 9.802 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.92 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 5.47 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 4.92 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+
+Sales manager user(Account types)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.25 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 3.47 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.25 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+
+Store manager user(Account types)  Time elapsed: 6.467 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.74 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 2.93 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 2.74 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+
+Store manager user(Account types)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.04 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Command duration or timeout: 3.48 seconds
+Caused by: org.openqa.selenium.SessionNotCreatedException: 
+session not created exception
+from unknown error: Runtime.evaluate missing 'wasThrown'
+  (Session info: chrome=80.0.3987.122)
+  (Driver info: chromedriver=2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0),platform=Mac OS X 10.14.4 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 3.04 seconds
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Fths-MacBook-Air.local', ip: 'fe80:0:0:0:1094:1bce:b9e5:7867%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.4', java.version: '12.0.2'
+Driver info: driver.version: unknown
+
